@@ -59,9 +59,9 @@ public class MainActivity extends Activity {
     public boolean tp(int x, int y, Player player) {
         Button piece = gameGrid[x][y];
         if(piece.getTag() == player) {
-            return(true);
+            return true;
         }else{
-            return(false);
+            return false;
         }
     }
 
